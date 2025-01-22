@@ -8,7 +8,10 @@
     font-size: 16px;
     color: rgba(14, 14, 14, 0.7);
 }
+.read-more{
 
+}
+/* pag 1 start */
 .content{
     display: flex;
     justify-content: left;
@@ -19,9 +22,11 @@ header{
 margin: 100px 100px 100px 110px;
 background-color: rgba(198, 228, 214, 1);
 height: 580px;
+border-radius: 17px;
 }
 .section-1div{
     padding: 117px 32px 117px 58px;
+    
 }
 .hero-img{
     padding: 80px 59px 80px 15px;
@@ -62,39 +67,106 @@ background-color: rgb(10, 105, 64);
     cursor: pointer;
 }
 .same-head{
-    font-size: 24;
+    font-size: 24px;
     color: rgba(14, 14, 14, 0.5);
     font-weight: 500;
 }
 /* pag 2 cooding start */
-.section-2{margin: 100px 100px 100px 110px;}
-.section-2-div{
-    display: flex;
-    justify-content: space-between;
-    align-items: stretch;
-    box-shadow: 0px 6px 50px 0px rgb(115, 109, 108);
-    background-color: rgb(228, 228, 228);
-    border-radius: 25px;
-    gap: 15px;
-    
-}
-.section-2-div .section-details{
-    width: 250px;
-    padding: 24px 0px 24px 24px;}
-.section-2 {
+.section-2{
     margin: 100px 100px 100px 110px;
 }
-.section-2-div > div {
+.section-2-div{
+    display: flex;
+    gap: 20px;
+    align-items: stretch;
+    box-shadow: 0px 6px 50px 0px rgb(212, 204, 203);
+    background-color: rgb(228, 228, 228);
+    border-radius: 25px;
+    
+}
+.section-2-div > div{
     display: flex;
     flex-direction: column;
     text-align: left;
-    padding: 20px;
     background-color: #fff;
     box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
-    width: F;
+    width: 260px;
+    padding: 24px 0px 24px 24px;}
+    
+ /* pag 3 cooding started */
+ .section-3{
+    margin: 100px 100px 100px 110px;
 }
+.section-3-div{
+    display: flex;
+    gap: 24px;
+    margin-top: 32px;
+    
+}
+.section-3-div-1{
+   background-color: rgba(58, 101, 171, 0.411);
+   padding: 32px;
+   width: 410px;
+   border-radius: 10px;
+}
+.section-3-div-2{
+ background-color: rgba(9, 161, 93, 0.35);
+ padding: 32px;
+ width: 410px;
+ border-radius: 10px;
+}
+.section-3-div-3{
+background-color: rgba(255, 196, 57, 0.361);
+padding: 32px;
+   width: 410px;
+   border-radius: 10px;
+}
+.btn-color1{
+    background-color: rgb(58, 101, 171) ;
+border: none;
+ cursor: pointer;
+ width: 122px;
+ height: 41px;
+ border-radius: 10px;
+ font-weight: 700;
+ font-size: 16px;
 
-
+}
+.btn-color2{
+    background-color: rgb(9, 161, 93);
+    border: none;
+ cursor: pointer;
+ width: 122px;
+ height: 41px;
+ border-radius: 10px;
+ font-weight: 700;
+ font-size: 16px;
+}
+.btn-color3{
+    background-color: rgb(255, 196, 57);
+    border: none;
+ cursor: pointer;
+ width: 122px;
+ height: 41px;
+ border-radius: 10px;
+ font-weight: 700;
+ font-size: 16px;
+}
+.dive-img{
+height: 256px;
+margin-top: 32px;
+background-color: #ffffff;
+    box-shadow: 0px 4px 20px rgba(199, 194, 194, 0.768);
+    padding: 40px 24px;
+}
+.Yunus{
+    font-weight: 600;
+    font-size: 20px;
+}
+.section-3-div a{
+text-decoration: none;
+color: #fff;
+}
 
 

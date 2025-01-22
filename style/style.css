@@ -205,4 +205,68 @@ color: #fff;
 .section-4-div{
     border: 24px solid rgb(255, 255, 255);
     box-shadow: 0px 4px 20px rgba(152, 139, 139, 0.768);
+} 
+/* pag-5 start  */
+.section-5{
+    margin: 100px 100px 100px 110px;
+}
+.new-h{
+font-weight: bold;
+font-size: 32px;
+}
+.section-5-div-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 24px solid rgb(255, 255, 255);
+    box-shadow: 0px 4px 20px rgba(152, 139, 139, 0.768);
+    margin-top: 32px;
+}
+.koll{
+    padding: 40px 16px 40px 35px;
+    border-radius: 110px;
+}
+.ul{
+    padding: 56px 48px 56px 16px;
+}
+.h3{
+font-weight: bold;
+font-size: 32px;
+}
+.id-button{
+    width: 139px;
+    height: 44px;
+    background-color: rgba(0, 106, 80, 1);
+    border: none;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 18px;
+}
+.id-button a{
+text-decoration: none;
+color: #fff;
+}
+.oo{
+    border-radius: 10px;
+}
+/* section-6 start */
+.section-6{
+    margin: 100px 100px 100px 110px;
+}
+.yyy{
+    text-align: center;
+}
+.section-6 ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold; 
+    font-size: 40px;
+    border: 40px;
+    gap: 24px;
+    list-style: none;
+}
+.section-6 ul li{
+    width: 244px;
+    height: 128px;
 }

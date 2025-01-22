@@ -18,10 +18,10 @@
     align-items: center;
 
 }
-header{
-margin: 100px 100px 100px 110px;
+.header{
+margin: 0px 100px 100px 110px;
 background-color: rgba(198, 228, 214, 1);
-height: 580px;
+height: auto;
 border-radius: 17px;
 border-radius: 7px;
 }
@@ -390,4 +390,35 @@ hr{
     border: none;
 
 
+}
+.dive-img{
+    background-image: url(../assets/quote-bg.png);
+    background-repeat: no-repeat;
+    background-size:auto;
+    background-position: 24px 25px;
+}
+.nev{
+    width: auto;
+    height: 100px;
+    margin: 0px 100px 0px 100px;
+    
+}
+.nev nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nev nav h1{
+    font-weight: bold;
+    font-size: 32px;
+}
+.nev nav button{
+width: 116px;
+height: 52px;
+color: rgba(0, 106, 80, 1);
+cursor: pointer;
+border-radius: 8px;
+}
+.nev nav button:hover{
+    background-color: rgba(178, 212, 42, 0.751);
 }
